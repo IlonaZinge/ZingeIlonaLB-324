@@ -24,6 +24,8 @@
    ```bash
    pre-commit run --all-files
    ```
+## Aufgabe 2
+   [Quelle](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python)
 
 ## Aufgabe 4
-Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
+   Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
