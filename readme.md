@@ -30,12 +30,13 @@
 ## Aufgabe 4
 
 ### Da bei mir Azure nicht funktioniert, erkläre ich es theoretisch:
-   
-   Zuerst muss man auf App Service klicken und dann eine Web App erstellen. 
-   Unter Runtimestack muss man Python wählen.
-   Die Region muss East US sein, weil das die einzige konstenlose Option ist.
-   Zum Schluss muss man Review und Create drücken.
-   Jetzt muss man im Deployment Center den deployment mit Github verlinken in dem man sich anmeldet die Organisation Repository und Branch auswählt und auf Save drückt. 
-   Auf Github sieht man den build und deploy und unter Deploy sollte dann der Link sein
+   - Zuerst muss man auf App Service klicken und dann eine Web App erstellen. 
+   - Unter Runtimestack muss man Python wählen.
+   - Die Region muss East US sein, weil das die einzige konstenlose Option ist.
+   - Zum Schluss muss man Review und Create drücken.
+   - Jetzt muss man im Deployment Center den deployment mit Github verlinken in dem man sich anmeldet die Organisation Repository und Branch auswählt und auf Save drückt. 
+   - Auf Github sieht man den build und deploy und unter Deploy sollte dann der Link sein. So sollte es dann aussehen:
+     ![image](https://github.com/IlonaZinge/ZingeIlonaLB-324/assets/91138062/437442ff-23ef-4554-a88d-a08172e7cd89)
+
    
    Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
