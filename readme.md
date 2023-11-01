@@ -35,7 +35,7 @@
    - Die Region muss East US sein, weil das die einzige konstenlose Option ist.
    - Zum Schluss muss man Review und Create drücken.
    - Jetzt muss man im Deployment Center den deployment mit Github verlinken in dem man sich anmeldet die Organisation Repository und Branch auswählt und auf Save drückt. 
-   - Auf Github sieht man den build und deploy und unter Deploy sollte dann der Link sein. So sollte es dann aussehen:
+   - Auf Github sieht man den build und deploy und unter Deploy sollte dann der Link sein. So sollte es dann aussehen (Bildquelle: Nina Wösten):
      ![image](https://github.com/IlonaZinge/ZingeIlonaLB-324/assets/91138062/437442ff-23ef-4554-a88d-a08172e7cd89)
 
    
