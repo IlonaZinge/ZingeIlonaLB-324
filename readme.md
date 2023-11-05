@@ -32,22 +32,23 @@
 ### Theoretische Einrichtung einer Web App auf Azure:
 
 1. **Web App Erstellung:**
-   - Klicken Sie im Azure Dashboard auf **App Service** und erstelle eine Web App.
+   - Zuerst muss man im Azure Dashboard auf **App Service** klicken und eine neue Web App erstellen.
      
 2. **Konfiguration der Laufzeitumgebung:**
-   - Wählen Sie **Python** als Runtimestack aus.
+   - Man sollte **Python** als Runtimestack auswählen.
      
 3. **Regionale Einstellungen:**
-   - Stellen Sie die Region auf **East US** ein, da dies die einzige kostenlose Option ist.
+   - Die Region sollte man auf **East US** einstellen, da dies die einzige kostenlose Option ist.
      
 4. **Überprüfung und Erstellung:**
-   - Klicken Sie auf **Review + Create**. Dann wird die Web App erstellt.
+   - Zunächst muss man auf **Review + Create**. Dann wird die Web App erstellt.
      
 5. **Einrichtung des Deployment Centers:**
-   - Verknüpfen Sie im Deployment Center das Deployment mit GitHub, indem Sie sich anmelden, die entsprechende Organisation, das Repository und den Branch wählen und dann auf **Save** klicken.
+   - Dann kann man im Deployment Center das Deployment mit GitHub verlinken, indem man sich anmeldet, die entsprechende Organisation, das Repository und den Branch wählt und dann auf **Save** klickt.
      
 6. **Überprüfung des Deployments:**
-   - Auf GitHub können Sie den Build- und Deploy-Prozess verfolgen. Der Link zur fertigen Web App sollte im Bereich **Deploy** zu finden sein. So sollte es dann aussehen (Bildquelle: Nina Wösten):
+   - Auf GitHub kann man den Build- und Deploy-Prozess verfolgen. Der Link zur fertigen Web App sollte im Bereich **Deploy** zu finden sein. So sollte es dann aussehen (Bildquelle: Nina Wösten):
      ![image](https://github.com/IlonaZinge/ZingeIlonaLB-324/assets/91138062/437442ff-23ef-4554-a88d-a08172e7cd89)
 
-
+6. **Secret hinzufügen:**
+   - In der erstellten Instanz muss man auf **Secrets** gehen und dort ein neues  Secret erstellen. Jetzt kann man dem **Secret** ein Namen und Passwort (hallihallo) geben und auf **Create** drücken. Denn **Secret-ID** soll man sich merken damit man wieder darauf zugreifen kann
